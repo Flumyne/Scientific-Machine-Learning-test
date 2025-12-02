@@ -51,12 +51,3 @@ The PINN successfully learned the underlying analytical solution by minimizing t
 #### Field Reconstruction 
 
 The heatmap comparison clearly illustrates the network's ability to **generalize** and **interpolate** across the unobserved regions, yielding a near-perfect reconstruction of the full field.
-
----
-
-### 🚀 Future Work
-* Integrate $\lambda_{i}$ weights scheduling (e.g., Curriculum Learning) to balance loss components.
-* Extend to a time-dependent problem (e.g., Heat Equation) to demonstrate continuous-time modeling.
-
----
-Would you like me to help you format the Python code into a more professional structure (e.g., separating the model definition, data preparation, and training loop into distinct Python files) or help you compare the results against a classical Finite Difference solver as mentioned in your original plan?
