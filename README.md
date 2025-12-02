@@ -45,7 +45,7 @@ The PINN successfully learned the underlying analytical solution by minimizing t
 | :--- | :--- |
 | **Number of Sparse Samples** | 100 points ($\approx 0.25\%$ of the $64 \times 64$ grid points) |
 | **Final Loss** | $\sim 10^{-4}$ |
-| **Mean Absolute Error (MAE)** | $<0.04$ |
+| **Mean Absolute Error (MAE)** | $<0.02$ |
 | **Visual Fidelity** | High (see Heatmaps below) |
 
 #### Field Reconstruction 
