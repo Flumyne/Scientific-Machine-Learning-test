@@ -166,9 +166,3 @@ axes[2].axis("off")
 
 plt.tight_layout()
 plt.show()
-
-# --- Calculation of L2 Error for CV Benchmarking ---
-
-# L2 error is the Euclidean distance between the true and predicted fields, normalized.
-l2_norm_error = np.linalg.norm(u_true - u_pred) / np.linalg.norm(u_true)
-print(f"Normalized L2 Error: {l2_norm_error * 100:.3f}%")
